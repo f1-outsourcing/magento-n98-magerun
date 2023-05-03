@@ -51,6 +51,7 @@ HELP;
         $collection = $this->getOrderCollection();
 
         $collection->addFieldToSelect(array('entity_id', 'state', 'status','increment_id', 'customer_email'));
+	$collection->setOrder('increment_id','ASC');
 
         if ($input->getArgument('search')) {
             $collection->addFieldToFilter(
