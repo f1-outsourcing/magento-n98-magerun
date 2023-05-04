@@ -164,6 +164,11 @@ commands:
     - N98\Magento\Command\System\Setup\RunCommand
     - N98\Magento\Command\System\Setup\IncrementalCommand
     - N98\Magento\Command\System\Store\Config\BaseUrlListCommand
+    - N98\Magento\Command\System\Store\Config\ListSalesCommand
+    - N98\Magento\Command\System\Store\Config\PrefixOrderCommand
+    - N98\Magento\Command\System\Store\Config\PaddingOrderCommand
+    - N98\Magento\Command\System\Store\Config\LastOrderCommand
+    - N98\Magento\Command\System\Store\Config\IncrementPerStoreOrderCommand
     - N98\Magento\Command\System\Store\ListCommand
     - N98\Magento\Command\System\Url\ListCommand
     - N98\Magento\Command\System\Website\ListCommand
